@@ -1,5 +1,5 @@
 {
-network: [ 
+"network": [ 
   { 
   "id": "TID001", 
   "operator": "ATT", 
