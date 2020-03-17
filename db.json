@@ -1,0 +1,42 @@
+{
+network: [ 
+  { 
+  "id": "TID001", 
+  "operator": "ATT", 
+  "benchmark_dimension": "WIFI", 
+  "avg_tput": 50, 
+  "network_list": ["WIFI", "LTE"] 
+  }, 
+  { 
+  "id": "TID002", 
+  "operator": "VZ", 
+  "benchmark_dimension": "WIFI", 
+  "avg_tput": 200, 
+  "network_list": ["WIFI", "LTE"] 
+  }
+  , 
+  { 
+  "id": "TID003", 
+  "operator": "ATT", 
+  "benchmark_dimension": "ATT", 
+  "avg_tput": 10, 
+  "network_list": ["LTE"] 
+  } 
+  , 
+  { 
+  "id": "TID004", 
+  "operator": "VZ", 
+  "benchmark_dimension": "VZ", 
+  "avg_tput": 30, 
+  "network_list": ["LTE"] 
+  } 
+  , 
+  { 
+  "id": "TID005", 
+  "operator": "ATT", 
+  "benchmark_dimension": "ATT", 
+  "avg_tput": 300, 
+  "network_list": ["LTE"] 
+  } 
+]
+}
